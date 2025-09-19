@@ -1,0 +1,25 @@
+﻿<Window x:Class="Timur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Timur"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid>
+
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Margin="200,49,0,0"/>
+        <Grid Background="#FFC77F20" Margin="0,0,600,0"/>
+        <Grid Background="#FFC77F20" HorizontalAlignment="Right" Width="600" Height="49" VerticalAlignment="Top">
+            <Label Content="СЕРВИСБИТ - Администратор" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" FontFamily="Britannic Bold"/>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="126" Margin="25,10,0,0" VerticalAlignment="Top" Width="139" Source="/0000/image/unnamed.png" Stretch="Fill"/>
+
+        <Button Name="btnZakaz" Click="btnZakaz_Click" Content="Заказы" Margin="8,150,608,0" Height="38" VerticalAlignment="Top"/>
+        <Button Name="btnClient" Click="btnClient_Click" Content="Клиенты" Margin="8,193,608,0" Height="38" VerticalAlignment="Top"/>
+        <Button Name="btnYslygi" Click="btnYslygi_Click" Content="Услуги" Margin="8,236,608,0" Height="39" VerticalAlignment="Top"/>
+        <Button Name="btnSotryd" Click="btnSotryd_Click" Content="Сотрудники" Margin="8,280,608,0" Height="38" VerticalAlignment="Top"/>
+        <Button Name="btnServise" Click="btnServise_Click" Content="Сервис" Margin="10,372,605,0" Height="25" VerticalAlignment="Top"/>
+        <Button Name="btnOtziv" Click="btnOtziv_Click" Content="Отзывы" Margin="10,402,606,0" Height="22" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
